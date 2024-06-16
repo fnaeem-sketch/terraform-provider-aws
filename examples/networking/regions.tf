@@ -3,7 +3,7 @@
 
 module "us-east-1" {
   source          = "./region"
-  region          = "us-east-1"
+  region          = "us-east-1" //This is the us-east-1 region
   base_cidr_block = var.base_cidr_block
 }
 
